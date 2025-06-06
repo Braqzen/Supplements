@@ -1,0 +1,16 @@
+{
+  "regular": [
+    { "name": "ALCAR", "dose": "TBD" },
+    { "name": "Lions Mane", "dose": "TBD" },
+    { "name": "Red Reishi Mushrooms", "dose": "TBD" },
+    { "name": "Creatine", "dose": "TBD" },
+    { "name": "Vitaminc C", "dose": "TBD" },
+    { "name": "Vitamin B12", "dose": "TBD" },
+    { "name": "NMN", "dose": "TBD" },
+    { "name": "L-Taurine", "dose": "TBD" }
+  ],
+  "occasional": [
+    { "name": "Vitamin D12", "dose": null },
+    { "name": "Magnesium", "dose": null }
+  ]
+}
