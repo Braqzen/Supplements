@@ -1,13 +1,13 @@
 {
   "regular": [
-    { "name": "ALCAR", "dose": "TBD" },
-    { "name": "Lions Mane", "dose": "TBD" },
-    { "name": "Red Reishi Mushrooms", "dose": "TBD" },
-    { "name": "Creatine", "dose": "TBD" },
-    { "name": "Vitaminc C", "dose": "TBD" },
-    { "name": "Vitamin B12", "dose": "TBD" },
-    { "name": "NMN", "dose": "TBD" },
-    { "name": "L-Taurine", "dose": "TBD" }
+    { "name": "Lions Mane", "dose": "1000mg" },
+    { "name": "Red Reishi Mushrooms", "dose": "1000mg" },
+    { "name": "ALCAR", "dose": "2000mg" },
+    { "name": "Creatine", "dose": "1000mg" },
+    { "name": "NMN", "dose": "500mg" },
+    { "name": "L-Taurine", "dose": "1000mg" },
+    { "name": "Vitamin B12", "dose": "1000µg" },
+    { "name": "Vitaminc C", "dose": "1000mg" }
   ],
   "occasional": [
     { "name": "Vitamin D12", "dose": null },

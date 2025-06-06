@@ -5,7 +5,7 @@ import {
   TableContainer,
   TableHead,
   TableRow,
-  Chip,
+  Typography,
 } from "@mui/material";
 
 interface Supplement {
@@ -37,20 +37,10 @@ const SupplementsTable = ({ supplements }: Props) => {
               }}
             >
               <TableCell sx={{ fontWeight: 500 }}>{supplement.name}</TableCell>
-              <TableCell sx={{ py: 2.5 }}>
-                {supplement.dose ? (
-                  <Chip
-                    label={supplement.dose}
-                    size="small"
-                    sx={{ fontWeight: 500 }}
-                  />
-                ) : (
-                  <Chip
-                    label="Whatever"
-                    size="small"
-                    sx={{ fontWeight: 500 }}
-                  />
-                )}
+              <TableCell sx={{ py: 2.5, fontWeight: 500 }}>
+                <Typography variant="body2">
+                  {supplement.dose ? supplement.dose : "Whatever"}
+                </Typography>
               </TableCell>
             </TableRow>
           ))}
